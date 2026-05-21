@@ -1,0 +1,416 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color:  #3edf9d;
+    
+    }
+    .head{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+   .head ul.list{
+        margin: 0;
+    }
+ul.list li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+  
+}
+ul.list li a{
+    text-decoration: none;
+
+}
+ul.list li.active a.log{
+    display: block;
+    width: 100px;
+height: 40px;
+line-height: 36px;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+ul.list li a.log-1{
+    display: block;
+    width: 100px;
+    height: 40px;
+    line-height: 36px;
+    border: 1px solid gainsboro;
+    color: white;
+    text-align: center;
+}
+
+ul.list li a.log-2{
+    display: block;
+    width: 100px;
+    height: 40px;
+    line-height: 36px;
+   background-color: rgba(5, 143, 235, 0.765);
+   color: white;
+   text-align: center;
+
+}
+
+.header a.ancer-1.nav-link {
+    border: 1px solid rgb(255, 252, 252);
+    width: 115px;
+    height: 45px;
+    text-align: center;
+}
+
+.header a.ancer.nav-link {
+    background-color: #ffffff;
+    width: 115px;
+    height: 45px;
+    border-radius: 3px;
+    text-align: center;
+}
+ .header ul.under-list.navbar-nav.me-auto.mb-2.mb-lg-0 {
+    padding-left: 498px;
+ }
+.header li.list.nav-item{
+    padding: 0px 10px 0px 10px;
+}
+
+.navcon {
+
+    /* height: 1121px; */
+    /* background-color: #3edf9d; */
+    color: black;
+    font-family: "Raleway", sans-serif;
+
+}
+
+.nav-1 {
+    /* width: 1150px; */
+    height: 144px;
+    background-color: #3edf9d;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav-1 h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+.nav-1 ul {
+    list-style: none;
+    display: flex;
+
+    gap: 20px;
+
+}
+
+
+ .navcon nav.navbar.navbar-expand-lg.bg-body-tertiary {
+
+    background: white !important;
+    border-bottom: 1px solid black;
+    padding: 0px;
+}
+
+
+
+ .navcon ul.navbar-nav li.nav-item {
+    padding: 10px 45px 10px 45px;
+    border-right: 1px solid black;
+}
+
+ul.navbar-nav li.nav-item1 {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 10px 45px 10px 45px;
+    margin-left: 11px;
+}
+
+ .navcon ul.navbar-nav li.nav-item2 {
+    padding: 10px 35px 10px 45px;
+}
+
+.navcon ul.navbar-nav li.nav-item a.nav-link:hover {
+    color: red;
+}
+
+li.nav-item a {
+    display: block;
+
+}
+
+/* .nav-1 ul li {
+    width: 115px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+}
+
+.nav-1 li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-1 ul .active {
+    background-color: white;
+    border: none;
+
+}
+
+.nav-1 ul .active1 {
+    border: 1px solid gray;
+}
+
+.nav-1 ul .active a {
+    color: black;
+
+}
+
+.nav-1 ul .active1 {
+    width: 105px;
+}
+
+.nav-1 ul .active1:hover {
+    background-color: #d507ec;
+
+}
+
+.nav-1 ul .active:hover {
+    background-color: #d507ec;
+}
+
+.nav-1 ul .active:hover a {
+    color: white;
+}
+
+li .active1 .active a {
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    width: 115px;
+    border-bottom: 1px solid transparent;
+    text-align: center;
+    color: rgb(202, 110, 110);
+    text-decoration: none;
+}
+
+.nav-1 a:hover {
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid pink;
+
+}
+
+.fbook {
+    width: 125px;
+    height: 45px;
+    background-color: #0080ff;
+    color: white;
+    border: none;
+}
+
+.fbook:hover {
+    background-color: #d507ec;
+}
+
+li.fbook a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: normal;
+} */
+
+.navdown {
+   
+    background-color: white;
+    color: gray;
+}
+
+
+/* h6.tttt{
+            font-size: 17px;
+            font-family:"Raleway", sans-serif ;
+            font-weight: normal;
+        } */
+.graybox {
+    background-color: #fafafa;
+     margin: 10px 0px 0px 0px ;
+     padding: 10px 0px;
+}
+
+
+
+.pic1 {
+    /* width: 251px;
+            height: 235px; */
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.pic1 img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.pic1 h4 {
+    position: absolute;
+    width: 100%;
+    height: 58px;
+    margin: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+} 
+
+.load {
+    /* height: 30px;
+            width: 500px; */
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.load h5 {
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    color: #7d7b7b;
+    font-weight: normal;
+    text-align: center;
+}
+
+.pinknav {
+    /* width: 100%;
+    height: 66px; */
+    background-color: #e5a7ec;
+
+}
+
+.picon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.underim{
+display: flex;
+justify-content: right;
+gap: 30px;
+
+}
+.inknav .row{
+    align-items: center;
+}
+.inknav {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inknav p{
+    margin: 0;
+}
+
+.fbicon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 710px;
+    gap: 15px;
+}
+
+.footer {
+    /* width: 100%;
+    height: 66px; */
+    background-color: white;
+    color: #7d7b7b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.fot li {
+    padding:  3px 10px;
+    display: inline-block;
+
+}
+
+@media screen and (max-width:1199px) {
+.navcon ul.navbar-nav li.nav-item {
+    padding: 10px 30px 10px 30px;}
+    .navcon ul.navbar-nav li.nav-item1 {
+    padding: 10px 18px 10px 18px;
+   
+}
+}
+
+@media screen and (max-width:991px) {
+    .navbar-nav {background:#00eeff;  }
+    .navbar-nav li {border-top: 1px solid #fff; margin: 0px!important; padding: 0px!important; border-left: none!important;}
+    .navbar-nav li a {padding: 13px;}
+     .underim {    justify-content: center;}
+}
+
+@media screen and (max-width:767px) {
+}
+@media(max-width:1199px){
+
+    .fot{
+        display: block;
+        text-align: center;
+        padding: 15px 0px;
+    }
+
+    .fot .copy{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+/* ================= 991px ================= */
+
+@media(max-width:991px){
+
+    .fot{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .fot .line{
+        display: none;
+    }
+}
+@media(max-width:767px){
+
+    .fot li{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .footer{
+        padding: 15px 10px;
+    }
+}
